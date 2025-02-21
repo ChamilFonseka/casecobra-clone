@@ -55,7 +55,20 @@ export default {
   			lg: 'var(--radius)',
   			md: 'calc(var(--radius) - 2px)',
   			sm: 'calc(var(--radius) - 4px)'
-  		}
+  		},
+		keyframes: {
+			marquee: {
+				'100%': { transform: 'translateY(-50%)' }
+			},
+			'fade-in': {
+				from: { opacity: "0" },
+				to: { opacity: "1" }
+			}
+		},
+		animation: {
+			'marquee': 'marquee var(--marquee-duration) linear infinite',
+			'fade-in': 'fade-in 0.5s linear forwards'
+		}
   	}
   },
   plugins: [require("tailwindcss-animate")],
