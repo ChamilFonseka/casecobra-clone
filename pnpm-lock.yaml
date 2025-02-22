@@ -23,6 +23,7 @@ specifiers:
   react: ^19.0.0
   react-dom: ^19.0.0
   react-dropzone: ^14.3.5
+  sharp: ^0.33.5
   sonner: ^2.0.1
   tailwind-merge: ^3.0.1
   tailwindcss: ^3.4.1
@@ -46,6 +47,7 @@ dependencies:
   react: 19.0.0
   react-dom: 19.0.0_react@19.0.0
   react-dropzone: 14.3.5_react@19.0.0
+  sharp: 0.33.5
   sonner: 2.0.1_upmzqgzhjrquwzo2dphtigtdgi
   tailwind-merge: 3.0.1
   tailwindcss-animate: 1.0.7_tailwindcss@3.4.17
@@ -1706,10 +1708,10 @@ packages:
     dev: false
 
   /@prisma/debug/6.4.1:
-    resolution: {integrity: sha512-Q9xk6yjEGIThjSD8zZegxd5tBRNHYd13GOIG0nLsanbTXATiPXCLyvlYEfvbR2ft6dlRsziQXfQGxAgv7zcMUA==, tarball: https://artifacts.devops.cambio.se:443/api/npm/npm/@prisma/debug/-/debug-6.4.1.tgz}
+    resolution: {integrity: sha512-Q9xk6yjEGIThjSD8zZegxd5tBRNHYd13GOIG0nLsanbTXATiPXCLyvlYEfvbR2ft6dlRsziQXfQGxAgv7zcMUA==}
 
   /@prisma/engines-version/6.4.0-29.a9055b89e58b4b5bfb59600785423b1db3d0e75d:
-    resolution: {integrity: sha512-Xq54qw55vaCGrGgIJqyDwOq0TtjZPJEWsbQAHugk99hpDf2jcEeQhUcF+yzEsSqegBaDNLA4IC8Nn34sXmkiTQ==, tarball: https://artifacts.devops.cambio.se:443/api/npm/npm/@prisma/engines-version/-/engines-version-6.4.0-29.a9055b89e58b4b5bfb59600785423b1db3d0e75d.tgz}
+    resolution: {integrity: sha512-Xq54qw55vaCGrGgIJqyDwOq0TtjZPJEWsbQAHugk99hpDf2jcEeQhUcF+yzEsSqegBaDNLA4IC8Nn34sXmkiTQ==}
 
   /@prisma/engines/6.4.1:
     resolution: {integrity: sha512-KldENzMHtKYwsOSLThghOIdXOBEsfDuGSrxAZjMnimBiDKd3AE4JQ+Kv+gBD/x77WoV9xIPf25GXMWffXZ17BA==}
@@ -1721,14 +1723,14 @@ packages:
       '@prisma/get-platform': 6.4.1
 
   /@prisma/fetch-engine/6.4.1:
-    resolution: {integrity: sha512-uZ5hVeTmDspx7KcaRCNoXmcReOD+84nwlO2oFvQPRQh9xiFYnnUKDz7l9bLxp8t4+25CsaNlgrgilXKSQwrIGQ==, tarball: https://artifacts.devops.cambio.se:443/api/npm/npm/@prisma/fetch-engine/-/fetch-engine-6.4.1.tgz}
+    resolution: {integrity: sha512-uZ5hVeTmDspx7KcaRCNoXmcReOD+84nwlO2oFvQPRQh9xiFYnnUKDz7l9bLxp8t4+25CsaNlgrgilXKSQwrIGQ==}
     dependencies:
       '@prisma/debug': 6.4.1
       '@prisma/engines-version': 6.4.0-29.a9055b89e58b4b5bfb59600785423b1db3d0e75d
       '@prisma/get-platform': 6.4.1
 
   /@prisma/get-platform/6.4.1:
-    resolution: {integrity: sha512-gXqZaDI5scDkBF8oza7fOD3Q3QMD0e0rBynlzDDZdTWbWmzjuW58PRZtj+jkvKje2+ZigCWkH8SsWZAsH6q1Yw==, tarball: https://artifacts.devops.cambio.se:443/api/npm/npm/@prisma/get-platform/-/get-platform-6.4.1.tgz}
+    resolution: {integrity: sha512-gXqZaDI5scDkBF8oza7fOD3Q3QMD0e0rBynlzDDZdTWbWmzjuW58PRZtj+jkvKje2+ZigCWkH8SsWZAsH6q1Yw==}
     dependencies:
       '@prisma/debug': 6.4.1
 
@@ -2354,21 +2356,19 @@ packages:
     resolution: {integrity: sha512-dOy+3AuW3a2wNbZHIuMZpTcgjGuLU/uBL/ubcZF9OXbDo8ff4O8yVp5Bf0efS8uEoYo5q4Fx7dY9OgQGXgAsQA==}
 
   /color-string/1.9.1:
-    resolution: {integrity: sha512-shrVawQFojnZv6xM40anx4CkoDP+fZsw/ZerEMsW/pyzsRbElpsL/DBVW7q3ExxwusdNXI3lXpuhEZkzs8p5Eg==}
+    resolution: {integrity: sha512-shrVawQFojnZv6xM40anx4CkoDP+fZsw/ZerEMsW/pyzsRbElpsL/DBVW7q3ExxwusdNXI3lXpuhEZkzs8p5Eg==, tarball: https://artifacts.devops.cambio.se:443/api/npm/npm/color-string/-/color-string-1.9.1.tgz}
     dependencies:
       color-name: 1.1.4
       simple-swizzle: 0.2.2
     dev: false
-    optional: true
 
   /color/4.2.3:
-    resolution: {integrity: sha512-1rXeuUUiGGrykh+CeBdu5Ie7OJwinCgQY0bc7GCRxy5xVHy+moaqkpL/jqQq0MtQOeYcrqEz4abc5f0KtU7W4A==}
+    resolution: {integrity: sha512-1rXeuUUiGGrykh+CeBdu5Ie7OJwinCgQY0bc7GCRxy5xVHy+moaqkpL/jqQq0MtQOeYcrqEz4abc5f0KtU7W4A==, tarball: https://artifacts.devops.cambio.se:443/api/npm/npm/color/-/color-4.2.3.tgz}
     engines: {node: '>=12.5.0'}
     dependencies:
       color-convert: 2.0.1
       color-string: 1.9.1
     dev: false
-    optional: true
 
   /commander/4.1.1:
     resolution: {integrity: sha512-NOKm8xhkzAjzFx8B2v5OAHT+u5pRQc2UCa2Vq9jYL/31o2wi9mxBA7LIFs3sV5VSC49z6pEhfbMULvShKj26WA==}
@@ -2485,10 +2485,9 @@ packages:
     dev: true
 
   /detect-libc/2.0.3:
-    resolution: {integrity: sha512-bwy0MGW55bG41VqxxypOsdSdGqLwXPI/focwgTYCFMbdUiBAxLg9CFzG08sz2aqzknwiX7Hkl0bQENjg8iLByw==}
+    resolution: {integrity: sha512-bwy0MGW55bG41VqxxypOsdSdGqLwXPI/focwgTYCFMbdUiBAxLg9CFzG08sz2aqzknwiX7Hkl0bQENjg8iLByw==, tarball: https://artifacts.devops.cambio.se:443/api/npm/npm/detect-libc/-/detect-libc-2.0.3.tgz}
     engines: {node: '>=8'}
     dev: false
-    optional: true
 
   /didyoumean/1.2.2:
     resolution: {integrity: sha512-gxtyfqMg7GKyhQmb056K7M3xszy/myH8w+B4RT+QXBQsvAOdc3XymqDDPHx1BgPgsdAA5SIifona89YtRATDzw==}
@@ -3340,9 +3339,8 @@ packages:
     dev: true
 
   /is-arrayish/0.3.2:
-    resolution: {integrity: sha512-eVRqCvVlZbuw3GrM63ovNSNAeA1K16kaR/LRY/92w0zxQ5/1YzwblUX652i4Xs9RwAGjW9d9y6X88t8OaAJfWQ==}
+    resolution: {integrity: sha512-eVRqCvVlZbuw3GrM63ovNSNAeA1K16kaR/LRY/92w0zxQ5/1YzwblUX652i4Xs9RwAGjW9d9y6X88t8OaAJfWQ==, tarball: https://artifacts.devops.cambio.se:443/api/npm/npm/is-arrayish/-/is-arrayish-0.3.2.tgz}
     dev: false
-    optional: true
 
   /is-async-function/2.1.1:
     resolution: {integrity: sha512-9dgM/cZBnNvjzaMYHVoxxfPj2QXt22Ev7SuuPrs+xav0ukGB0S6d4ydZdEiM48kLx5kDV+QBPrpVnFyefL8kkQ==}
@@ -4335,7 +4333,6 @@ packages:
       '@img/sharp-win32-ia32': 0.33.5
       '@img/sharp-win32-x64': 0.33.5
     dev: false
-    optional: true
 
   /shebang-command/2.0.0:
     resolution: {integrity: sha512-kHxr2zZpYtdmrN1qDjrrX/Z1rR1kG8Dx+gkpK1G4eXmvXswmcE1hTWBWYUzlraYw1/yZp6YuDY77YtvbN0dmDA==}
@@ -4392,11 +4389,10 @@ packages:
     engines: {node: '>=14'}
 
   /simple-swizzle/0.2.2:
-    resolution: {integrity: sha512-JA//kQgZtbuY83m+xT+tXJkmJncGMTFT+C+g2h2R9uxkYIrE2yy9sgmcLhCnw57/WSD+Eh3J97FPEDFnbXnDUg==}
+    resolution: {integrity: sha512-JA//kQgZtbuY83m+xT+tXJkmJncGMTFT+C+g2h2R9uxkYIrE2yy9sgmcLhCnw57/WSD+Eh3J97FPEDFnbXnDUg==, tarball: https://artifacts.devops.cambio.se:443/api/npm/npm/simple-swizzle/-/simple-swizzle-0.2.2.tgz}
     dependencies:
       is-arrayish: 0.3.2
     dev: false
-    optional: true
 
   /sonner/2.0.1_upmzqgzhjrquwzo2dphtigtdgi:
     resolution: {integrity: sha512-FRBphaehZ5tLdLcQ8g2WOIRE+Y7BCfWi5Zyd8bCvBjiW8TxxAyoWZIxS661Yz6TGPqFQ4VLzOF89WEYhfynSFQ==}
